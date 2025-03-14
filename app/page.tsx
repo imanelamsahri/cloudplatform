@@ -61,7 +61,7 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <button
-              onClick={() => router.push("http://localhost:3000/workbench")}
+              onClick={() => router.push("/workbench")}
               className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-500 transition"
             >
               Get Started
